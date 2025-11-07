@@ -177,7 +177,7 @@ Please note that upgrading your underlying OS to Bookworm is not going to work. 
 Run these commands to migrate to this repo:
 ```
 git remote remove origin
-git remote add origin https://github.com/Nachtzuster/BirdNET-Pi.git
+git remote add origin https://github.com/joostdjong/BirdNET-Pi-test.git
 ./scripts/update_birdnet.sh
 ```
 ## Troubleshooting and Ideas
