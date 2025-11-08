@@ -112,7 +112,7 @@ else:
     start_date, end_date = st.sidebar.slider('Date Range',
                                              min_value=Start_Date-timedelta(days=1),
                                              max_value=End_Date,
-                                             value=(Start_Date, End_Date),
+                                             value=(End_Date-timedelta(days=30), End_Date),
                                              help='Select start and end date, if same date get a clockplot for a single day')
 
 
