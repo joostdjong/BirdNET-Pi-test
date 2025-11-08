@@ -317,9 +317,9 @@ if daily is False:
                         tickmode='array',
                         tickvals=[0, 15, 35, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210,
                                   225, 240, 255, 270, 285, 300, 315, 330, 345],
-                        ticktext=['12am', '1am', '2am', '3am', '4am', '5am', '6am', '7am', '8am', '9am',
-                                  '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm',
-                                  '7pm', '8pm', '9pm', '10pm', '11pm'],
+                        ticktext=['00h', '01h', '02h', '03h', '04h', '05h', '06h', '07h', '08h',
+                                      '09h', '01h', '11h', '12h', '13h', '14h', '15h', '16h', '17h',
+                                      '18h', '19h', '20h', '21h', '22h', '23h'],
                         hoverformat="#%{theta}: <br>Popularity: %{percent} </br> %{r}"
                     ),
                 ),
